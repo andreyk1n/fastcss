@@ -9,14 +9,14 @@
 06-grid.css +
 
 07-sizing.css +
-08-spacing.css
+08-spacing.css +
     margin.css +
     padding.css +
     gap.css +
 
-09-typography.css
+09-typography.css +
 
-10-colors.css
+10-colors.css +
 11-backgrounds.css
 
 12-borders.css

@@ -22,7 +22,7 @@
 12-borders.css + 
 13-shadows.css +
 
-14-effects.css
+14-effects.css +
 15-transitions.css
 16-transforms.css
 

@@ -7011,3 +7011,179 @@
 .xxl\:p-4{padding:1rem;}
 .xxl\:text-center{text-align:center;}
 }
+
+.hover\:bg-primary:hover{
+    background:var(--primary);
+}
+
+.hover\:bg-secondary:hover{
+    background:var(--secondary);
+}
+
+.hover\:bg-success:hover{
+    background:var(--success);
+}
+
+.hover\:bg-warning:hover{
+    background:var(--warning);
+}
+
+.hover\:bg-danger:hover{
+    background:var(--danger);
+}
+
+.hover\:bg-info:hover{
+    background:var(--info);
+}
+
+.hover\:bg-white:hover{
+    background:#fff;
+}
+
+.hover\:bg-black:hover{
+    background:#000;
+}
+
+.hover\:bg-transparent:hover{
+    background:transparent;
+}
+
+.hover\:text-primary:hover{
+    color:var(--primary);
+}
+
+.hover\:text-secondary:hover{
+    color:var(--secondary);
+}
+
+.hover\:text-success:hover{
+    color:var(--success);
+}
+
+.hover\:text-warning:hover{
+    color:var(--warning);
+}
+
+.hover\:text-danger:hover{
+    color:var(--danger);
+}
+
+.hover\:text-info:hover{
+    color:var(--info);
+}
+
+.hover\:text-white:hover{
+    color:#fff;
+}
+
+.hover\:text-black:hover{
+    color:#000;
+}
+
+.hover\:border-primary:hover{
+    border-color:var(--primary);
+}
+
+.hover\:border-secondary:hover{
+    border-color:var(--secondary);
+}
+
+.hover\:border-success:hover{
+    border-color:var(--success);
+}
+
+.hover\:border-warning:hover{
+    border-color:var(--warning);
+}
+
+.hover\:border-danger:hover{
+    border-color:var(--danger);
+}
+
+.hover\:border-info:hover{
+    border-color:var(--info);
+}
+
+.hover\:opacity-0:hover{
+    opacity:0;
+}
+
+.hover\:opacity-25:hover{
+    opacity:.25;
+}
+
+.hover\:opacity-50:hover{
+    opacity:.5;
+}
+
+.hover\:opacity-75:hover{
+    opacity:.75;
+}
+
+.hover\:opacity-100:hover{
+    opacity:1;
+}
+
+.hover\:shadow:hover{
+    box-shadow:var(--shadow);
+}
+
+.hover\:shadow-md:hover{
+    box-shadow:var(--shadow-md);
+}
+
+.hover\:shadow-lg:hover{
+    box-shadow:var(--shadow-lg);
+}
+
+.hover\:shadow-xl:hover{
+    box-shadow:var(--shadow-xl);
+}
+
+.hover\:scale-95:hover{
+    transform:scale(.95);
+}
+
+.hover\:scale-100:hover{
+    transform:scale(1);
+}
+
+.hover\:scale-105:hover{
+    transform:scale(1.05);
+}
+
+.hover\:scale-110:hover{
+    transform:scale(1.1);
+}
+
+.hover\:scale-125:hover{
+    transform:scale(1.25);
+}
+
+.hover\:rotate-3:hover{
+    transform:rotate(3deg);
+}
+
+.hover\:rotate-6:hover{
+    transform:rotate(6deg);
+}
+
+.hover\:rotate-12:hover{
+    transform:rotate(12deg);
+}
+
+.hover\:translate-y-1:hover{
+    transform:translateY(.25rem);
+}
+
+.hover\:translate-y-2:hover{
+    transform:translateY(.5rem);
+}
+
+.hover\:translate-y-4:hover{
+    transform:translateY(1rem);
+}
+
+.hover\:cursor-pointer:hover{
+    cursor:pointer;
+}

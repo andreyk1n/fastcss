@@ -6,7 +6,7 @@
 03-display.css +
 04-position.css +
 05-flex.css +
-06-grid.css
+06-grid.css +
 
 07-sizing.css
 08-spacing.css

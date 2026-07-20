@@ -11,8 +11,8 @@
 07-sizing.css +
 08-spacing.css
     margin.css +
-    padding.css
-    gap.css
+    padding.css +
+    gap.css 
     space.css
 
 09-typography.css

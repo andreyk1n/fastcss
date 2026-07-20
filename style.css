@@ -5792,3 +5792,288 @@
 .bg-unset {
     background: unset;
 }
+
+/* ==========================================================
+   Borders
+   Version: 1.0
+   ========================================================== */
+
+/* ==========================================================
+   Border Style
+   ========================================================== */
+
+.border-none {
+    border-style: none;
+}
+
+.border-solid {
+    border-style: solid;
+}
+
+.border-dashed {
+    border-style: dashed;
+}
+
+.border-dotted {
+    border-style: dotted;
+}
+
+.border-double {
+    border-style: double;
+}
+
+.border-hidden {
+    border-style: hidden;
+}
+
+/* ==========================================================
+   Border Width
+   ========================================================== */
+
+.border {
+    border-width: 1px;
+}
+
+.border-0 {
+    border-width: 0;
+}
+
+.border-2 {
+    border-width: 2px;
+}
+
+.border-4 {
+    border-width: 4px;
+}
+
+.border-8 {
+    border-width: 8px;
+}
+
+/* ==========================================================
+   Border Top
+   ========================================================== */
+
+.border-t {
+    border-top-width: 1px;
+}
+
+.border-t-0 {
+    border-top-width: 0;
+}
+
+.border-t-2 {
+    border-top-width: 2px;
+}
+
+.border-t-4 {
+    border-top-width: 4px;
+}
+
+.border-t-8 {
+    border-top-width: 8px;
+}
+
+/* ==========================================================
+   Border Right
+   ========================================================== */
+
+.border-r {
+    border-right-width: 1px;
+}
+
+.border-r-0 {
+    border-right-width: 0;
+}
+
+.border-r-2 {
+    border-right-width: 2px;
+}
+
+.border-r-4 {
+    border-right-width: 4px;
+}
+
+.border-r-8 {
+    border-right-width: 8px;
+}
+
+/* ==========================================================
+   Border Bottom
+   ========================================================== */
+
+.border-b {
+    border-bottom-width: 1px;
+}
+
+.border-b-0 {
+    border-bottom-width: 0;
+}
+
+.border-b-2 {
+    border-bottom-width: 2px;
+}
+
+.border-b-4 {
+    border-bottom-width: 4px;
+}
+
+.border-b-8 {
+    border-bottom-width: 8px;
+}
+
+/* ==========================================================
+   Border Left
+   ========================================================== */
+
+.border-l {
+    border-left-width: 1px;
+}
+
+.border-l-0 {
+    border-left-width: 0;
+}
+
+.border-l-2 {
+    border-left-width: 2px;
+}
+
+.border-l-4 {
+    border-left-width: 4px;
+}
+
+.border-l-8 {
+    border-left-width: 8px;
+}
+
+/* ==========================================================
+   Border Radius
+   ========================================================== */
+
+.rounded-none {
+    border-radius: 0;
+}
+
+.rounded-sm {
+    border-radius: var(--radius-sm);
+}
+
+.rounded {
+    border-radius: var(--radius);
+}
+
+.rounded-md {
+    border-radius: var(--radius-md);
+}
+
+.rounded-lg {
+    border-radius: var(--radius-lg);
+}
+
+.rounded-xl {
+    border-radius: var(--radius-xl);
+}
+
+.rounded-2xl {
+    border-radius: var(--radius-2xl);
+}
+
+.rounded-3xl {
+    border-radius: var(--radius-3xl);
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+/* ==========================================================
+   Individual Radius
+   ========================================================== */
+
+.rounded-t {
+    border-top-left-radius: var(--radius);
+    border-top-right-radius: var(--radius);
+}
+
+.rounded-r {
+    border-top-right-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+}
+
+.rounded-b {
+    border-bottom-left-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+}
+
+.rounded-l {
+    border-top-left-radius: var(--radius);
+    border-bottom-left-radius: var(--radius);
+}
+
+/* ==========================================================
+   Corners
+   ========================================================== */
+
+.rounded-tl {
+    border-top-left-radius: var(--radius);
+}
+
+.rounded-tr {
+    border-top-right-radius: var(--radius);
+}
+
+.rounded-br {
+    border-bottom-right-radius: var(--radius);
+}
+
+.rounded-bl {
+    border-bottom-left-radius: var(--radius);
+}
+
+/* ==========================================================
+   Divide
+   ========================================================== */
+
+.divide-x>*+* {
+    border-left-width: 1px;
+}
+
+.divide-y>*+* {
+    border-top-width: 1px;
+}
+
+.divide-x-2>*+* {
+    border-left-width: 2px;
+}
+
+.divide-y-2>*+* {
+    border-top-width: 2px;
+}
+
+.divide-x-4>*+* {
+    border-left-width: 4px;
+}
+
+.divide-y-4>*+* {
+    border-top-width: 4px;
+}
+
+/* ==========================================================
+   Helpers
+   ========================================================== */
+
+.border-collapse {
+    border-collapse: collapse;
+}
+
+.border-separate {
+    border-collapse: separate;
+}
+
+.table-fixed {
+    table-layout: fixed;
+}
+
+.table-auto {
+    table-layout: auto;
+}

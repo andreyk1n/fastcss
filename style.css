@@ -1,0 +1,188 @@
+/* ==========================================================
+   Root Variables
+   ========================================================== */
+
+:root {
+
+    /* ========= Colors ========= */
+
+    --primary: #3b82f6;
+    --secondary: #64748b;
+
+    --success: #22c55e;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+    --info: #06b6d4;
+
+    --white: #ffffff;
+    --black: #000000;
+    --transparent: transparent;
+    --current: currentColor;
+
+    /* Gray */
+
+    --gray-50: #f8fafc;
+    --gray-100: #f1f5f9;
+    --gray-200: #e2e8f0;
+    --gray-300: #cbd5e1;
+    --gray-400: #94a3b8;
+    --gray-500: #64748b;
+    --gray-600: #475569;
+    --gray-700: #334155;
+    --gray-800: #1e293b;
+    --gray-900: #0f172a;
+    --gray-950: #020617;
+
+    /* ========= Fonts ========= */
+
+    --font-sans: system-ui, sans-serif;
+    --font-serif: Georgia, serif;
+    --font-mono: Consolas, monospace;
+
+    /* ========= Font Sizes ========= */
+
+    --text-xs: .75rem;
+    --text-sm: .875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 3rem;
+    --text-6xl: 3.75rem;
+    --text-7xl: 4.5rem;
+    --text-8xl: 6rem;
+    --text-9xl: 8rem;
+
+    /* ========= Font Weight ========= */
+
+    --fw-100: 100;
+    --fw-200: 200;
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-800: 800;
+    --fw-900: 900;
+
+    /* ========= Line Height ========= */
+
+    --leading-none: 1;
+    --leading-tight: 1.25;
+    --leading-normal: 1.5;
+    --leading-relaxed: 1.625;
+    --leading-loose: 2;
+
+    /* ========= Letter Spacing ========= */
+
+    --tracking-tight: -0.05em;
+    --tracking-normal: 0;
+    --tracking-wide: 0.05em;
+
+    /* ========= Spacing ========= */
+
+    --space-0: 0;
+    --space-1: .25rem;
+    --space-2: .5rem;
+    --space-3: .75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+    --space-20: 5rem;
+    --space-24: 6rem;
+    --space-32: 8rem;
+    --space-40: 10rem;
+    --space-48: 12rem;
+    --space-56: 14rem;
+    --space-64: 16rem;
+    --space-80: 20rem;
+    --space-96: 24rem;
+
+    /* ========= Radius ========= */
+
+    --radius-none: 0;
+    --radius-sm: .125rem;
+    --radius: .25rem;
+    --radius-md: .375rem;
+    --radius-lg: .5rem;
+    --radius-xl: .75rem;
+    --radius-2xl: 1rem;
+    --radius-3xl: 1.5rem;
+    --radius-full: 9999px;
+
+    /* ========= Shadow ========= */
+
+    --shadow-xs: 0 1px 2px rgba(0, 0, 0, .05);
+
+    --shadow-sm:
+        0 1px 3px rgba(0, 0, 0, .08);
+
+    --shadow:
+        0 4px 6px rgba(0, 0, 0, .1);
+
+    --shadow-md:
+        0 6px 12px rgba(0, 0, 0, .12);
+
+    --shadow-lg:
+        0 12px 24px rgba(0, 0, 0, .16);
+
+    --shadow-xl:
+        0 20px 40px rgba(0, 0, 0, .2);
+
+    /* ========= Transition ========= */
+
+    --transition-fast: .15s ease;
+    --transition: .3s ease;
+    --transition-slow: .5s ease;
+
+    /* ========= Z-index ========= */
+
+    --z-0: 0;
+    --z-10: 10;
+    --z-20: 20;
+    --z-30: 30;
+    --z-40: 40;
+    --z-50: 50;
+    --z-max: 9999;
+
+    /* ========= Container ========= */
+
+    --container-sm: 640px;
+    --container-md: 768px;
+    --container-lg: 1024px;
+    --container-xl: 1280px;
+    --container-2xl: 1536px;
+
+    /* ========= Breakpoints ========= */
+
+    --screen-sm: 640px;
+    --screen-md: 768px;
+    --screen-lg: 1024px;
+    --screen-xl: 1280px;
+    --screen-2xl: 1536px;
+
+
+    /* Width */
+
+    --w-auto: auto;
+    --w-full: 100%;
+    --w-screen: 100vw;
+    --w-fit: fit-content;
+    --w-min: min-content;
+    --w-max: max-content;
+
+    /* Height */
+
+    --h-auto: auto;
+    --h-full: 100%;
+    --h-screen: 100vh;
+    --h-fit: fit-content;
+    --h-min: min-content;
+    --h-max: max-content;
+}
